@@ -12,7 +12,8 @@ def fetch_tuple(datalist):
     tuple_list=[]
     for data in datalist:
         tup=(data[2],data[4],data[6],data[7])
-        tuple_list.append(tup)   
+        tuple_list.append(tup)
+        
     return tuple_list
 
 
@@ -52,7 +53,7 @@ def fetch_street_class_data(datalist):
 fout=open('Street_Centrelines.csv','r')
 datalist=read_csv(fout)
 print('THE DICTIONARY OF STREET CLASS WITH THEIR STREETS LIST :::')
-print(fetch_street_class_data(datalist)
+print(fetch_street_class_data(datalist))
 print('THE TUPLES OF (STR_NAME, FULL_NAME,FROM_STR,TO_STR)::::')
 print(fetch_tuple(datalist))
 print('DICTIONARY OF MAITAINENACE DATA WITH THEIR OCCURANCE::::')
