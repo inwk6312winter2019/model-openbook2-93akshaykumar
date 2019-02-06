@@ -1,5 +1,5 @@
-# Inwk6312-Winter2018-ProgrammingTask4
-# Programming Task 4
+# Inwk6312
+# Programming Task
 
   - You have to clone this repo to your account, you should be seeing this on your account, if someone elses name is listed call an instructor for help.
   - Use the Ubuntu VM to write the progrm.
@@ -55,13 +55,6 @@ You can ignore edge cases or null data.
 
 Handle edge cases and null data.
 
-### Development
-
-Use with open to open file:
-```py
-with open(file, 'r') as myfile
-```
-Use string functions to seperate the values and extract the interesting value to a data structure of your choice!
 
 
 ### Output formatting
